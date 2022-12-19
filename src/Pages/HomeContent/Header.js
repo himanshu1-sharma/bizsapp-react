@@ -1,8 +1,6 @@
 import React from 'react'
 import logo from '../../img/logo/logo.png'
 import { Link } from 'react-router-dom'
-import apple from '../../img/icons/apple.png'
-import playStore from '../../img/icons/playStore.png'
 import './Home.css'
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -13,6 +11,7 @@ import headerSlider1 from '../../img/home/headerSlider1.png'
 import headerSlider2 from '../../img/home/headerSlider2.png'
 import headerSlider3 from '../../img/home/headerSlider3.png'
 import headerBgVideo from '../../img/home/headerSliderBg.mp4'
+import DownloadBtn from '../Includes/DownloadBtn/DownloadBtn'
 
 const Header = () => {
     return (
@@ -54,28 +53,7 @@ const Header = () => {
                                         Lorem Ipsum has been the industry's standard dummy text
                                         ever since the 1500s,</p>
                                     <div className='homeHeaderBtn'>
-                                        <a href="#">
-                                            <div className='homeHeaderStorBtn'>
-                                                <div className='storeImg'>
-                                                    <img src={apple} alt="apple" className='img-fluid' />
-                                                </div>
-                                                <div className='storeName'>
-                                                    <span>Download on the</span>
-                                                    <p>App Store</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                        <a href="#">
-                                            <div className='homeHeaderStorBtn'>
-                                                <div className='storeImg'>
-                                                    <img src={playStore} alt="playStore" className='img-fluid' />
-                                                </div>
-                                                <div className='storeName'>
-                                                    <span>GET IT ON</span>
-                                                    <p>Google Play</p>
-                                                </div>
-                                            </div>
-                                        </a>
+                                        <DownloadBtn />
                                     </div>
                                 </div>
                             </div>
@@ -99,6 +77,7 @@ const Header = () => {
                                         pagination={{
                                             clickable: true,
                                         }}
+                                        loop={true}
                                         navigation={true}
                                         modules={[Autoplay, Pagination, Navigation]}
                                         className="mySwiper"

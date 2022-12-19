@@ -22,19 +22,17 @@ const Navigation = () => {
                                     </li>
                                     <li>
                                         <input type="checkbox" id="active" />
-                                        <label for="active" className="menu-btn mobile-menu"  onClick={() => setActive(!active)}>
-                                            <div className="">
-                                                <div className={active ? 'menu_click active' : 'menu_click'}>
-                                                    <div id="top"></div>
-                                                    <div id="middle"></div>
-                                                    <div id="bottom"></div>
-                                                </div>
+                                        <label for="active" className="menu-btn mobile-menu" onClick={() => setActive(!active)}>
+                                            <div className={active ? 'menu_click active' : 'menu_click'}>
+                                                <div id="top"></div>
+                                                <div id="middle"></div>
+                                                <div id="bottom"></div>
                                             </div>
                                         </label>
                                         <div className="wrapper">
                                             <ul>
                                                 <li><Link to="/" data-text="Home">Home</Link></li>
-                                                <li><Link to="/" data-text="About">About Us</Link></li>
+                                                <li><Link to="/about" data-text="About">About Us</Link></li>
                                                 <li><Link to="/" data-text="Feature">Feature</Link></li>
                                                 <li><Link to="/" data-text="Community">Community</Link></li>
                                                 <li><Link to="/" data-text="HelpCenter">Help Center</Link></li>
@@ -45,7 +43,7 @@ const Navigation = () => {
                             </div>
                         </div>
                     </div>
-                
+
                 </div>
             </nav>
         </>
