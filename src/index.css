@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: regular;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1, h2, h3, h4, h5, h5{
+  color: var(--dark);
+}
+p {
+  color: var(--text);
+}
+
+/* Color Variables */
+:root {
+  --bg-dark: #000813;
+  --bg-light: #F2FAFF;
+  --white: #fff;
+  --dark: #000813;
+  --text: #575757;
+  --primary: #0B1118;
+  --secondary: #0C8CE9;
+}
+
+@font-face {
+  font-family: regular;
+  src: url('./font/Poppins-Regular.otf');
+}
+
+@font-face {
+  font-family: mediumfont;
+  src: url('./font/Poppins-Medium.otf');
+}
+
+@font-face {
+  font-family: semibold;
+  src: url('./font/Poppins-SemiBold.otf');
+}
+
+@font-face {
+  font-family: boldfont;
+  src: url('./font/Poppins-Bold.otf');
+}
+
+@font-face {
+  font-family: extrabold;
+  src: url('./font/Poppins-ExtraBold.otf');
+}
+
+@media (min-width: 1400px) {
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1600px !important;
+  }
+}
