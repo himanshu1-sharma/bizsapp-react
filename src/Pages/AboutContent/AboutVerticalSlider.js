@@ -106,7 +106,7 @@ const AboutVerticalSlider = () => {
                                     </div>
                                     <div className='col-xl-7 col-lg-7 col-md-6 col-sm-12 col-12'>
                                         <div className='aboutVerticalSliderImg'>
-                                            <img src={product} alt="product" className='img-fluid' />
+                                            <img src={service} alt="service" className='img-fluid' />
                                         </div>
                                     </div>
                                 </div>

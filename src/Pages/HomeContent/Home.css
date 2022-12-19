@@ -62,6 +62,9 @@
 .homeHeaderContent p {
     margin: 2rem 0 3rem 0;
 }
+.homeHeaderBtn p{
+    margin: 0;
+}
 
 .homeHeaderBtn {
     display: flex;

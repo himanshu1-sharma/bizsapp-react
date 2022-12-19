@@ -71,3 +71,12 @@ p {
     max-width: 1600px !important;
   }
 }
+
+.pageTitleMargen{
+  padding: 8rem 0 4rem 0;
+}
+.pageTitle h1{
+  text-align: center;
+  font-size: 60px;
+  font-family: mediumfont;
+}

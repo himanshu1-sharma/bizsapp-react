@@ -1,0 +1,10 @@
+.featureBodyBg{
+    padding-bottom: 4rem;
+}
+
+.featureContent{
+    margin: 3rem 0;
+}
+.featureBodyBg .aboutVerticalSliderImg.one{
+    justify-content: flex-start;
+}
