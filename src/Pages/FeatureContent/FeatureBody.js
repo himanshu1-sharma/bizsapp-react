@@ -16,7 +16,7 @@ const FeatureBody = () => {
                 <div className='container'>
                     <div className='featureContent'>
                         <div className='row'>
-                            <div className='col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12'>
+                            <div className='col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12' id='order2'>
                                 <div className='aboutVerticalSliderContent'>
                                     <h2>Add Products</h2>
                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -28,7 +28,7 @@ const FeatureBody = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='col-xl-7 col-lg-7 col-md-6 col-sm-12 col-12'>
+                            <div className='col-xl-7 col-lg-7 col-md-6 col-sm-12 col-12' id='order1'>
                                 <div className='aboutVerticalSliderImg'>
                                     <img src={product} alt="product" className='img-fluid' />
                                 </div>
@@ -58,7 +58,7 @@ const FeatureBody = () => {
                     </div>
                     <div className='featureContent'>
                         <div className='row'>
-                            <div className='col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12'>
+                            <div className='col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12' id='order2'>
                                 <div className='aboutVerticalSliderContent'>
                                     <h2>Create BMC</h2>
                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -70,7 +70,7 @@ const FeatureBody = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='col-xl-7 col-lg-7 col-md-6 col-sm-12 col-12'>
+                            <div className='col-xl-7 col-lg-7 col-md-6 col-sm-12 col-12' id='order1'>
                                 <div className='aboutVerticalSliderImg'>
                                     <img src={bmc} alt="bmc" className='img-fluid' />
                                 </div>
@@ -100,7 +100,7 @@ const FeatureBody = () => {
                     </div>
                     <div className='featureContent'>
                         <div className='row'>
-                            <div className='col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12'>
+                            <div className='col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12' id='order2'>
                                 <div className='aboutVerticalSliderContent'>
                                     <h2>Have A Conversation</h2>
                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -112,7 +112,7 @@ const FeatureBody = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='col-xl-7 col-lg-7 col-md-6 col-sm-12 col-12'>
+                            <div className='col-xl-7 col-lg-7 col-md-6 col-sm-12 col-12' id='order1'>
                                 <div className='aboutVerticalSliderImg'>
                                     <img src={conversation} alt="conversation" className='img-fluid' />
                                 </div>

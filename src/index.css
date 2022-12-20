@@ -102,11 +102,17 @@ p {
   #order2 {
     order: 2;
   }
+  .pageTitle h1{
+    font-size: 26px;
+  }
+  .pageTitle h1 br{
+    display: none;
+  }
 }
 
 @media (min-width: 380px) and (max-width: 424.98px) {
   p {
-    font-size: 14px;
+    font-size: 14px !important;
   }
 
   #order1 {
@@ -115,12 +121,18 @@ p {
 
   #order2 {
     order: 2;
+  }
+  .pageTitle h1{
+    font-size: 26px;
+  }
+  .pageTitle h1 br{
+    display: none;
   }
 }
 
 @media (min-width: 425px) and (max-width: 575.98px) {
   p {
-    font-size: 14px;
+    font-size: 14px !important;
   }
 
   #order1 {
@@ -130,15 +142,49 @@ p {
   #order2 {
     order: 2;
   }
+  .pageTitle h1{
+    font-size: 26px;
+  }
+  .pageTitle h1 br{
+    display: none;
+  }
 }
 
-@media (min-width: 576px) and (max-width: 768.98px) {}
+@media (min-width: 576px) and (max-width: 768.98px) {
+  .pageTitle h1{
+    font-size: 26px;
+  }
+  .pageTitle h1 br{
+    display: none;
+  }
+}
 
-@media (min-width: 769px) and (max-width: 991.98px) {}
+@media (min-width: 769px) and (max-width: 991.98px) {
+  .pageTitle h1{
+    font-size: 26px;
+  }
+  .pageTitle h1 br{
+    display: none;
+  }
+}
 
-@media (min-width: 992px) and (max-width: 1023.98px) {}
+@media (min-width: 992px) and (max-width: 1023.98px) {
+  .pageTitle h1{
+    font-size: 26px;
+  }
+  .pageTitle h1 br{
+    display: none;
+  }
+}
 
-@media (min-width: 1024px) and (max-width: 1199.98px) {}
+@media (min-width: 1024px) and (max-width: 1199.98px) {
+  .pageTitle h1{
+    font-size: 26px;
+  }
+  .pageTitle h1 br{
+    display: none;
+  }
+}
 
 @media (min-width: 1200px) and (max-width: 1279.98px) {}
 

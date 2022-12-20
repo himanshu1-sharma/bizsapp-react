@@ -84,13 +84,114 @@
         display: block;
         justify-content: center;
     }
+    .footerBg{
+        margin: 0;
+    }
+    .footerList{
+        text-align: center;
+    }
+    .footerList h4{
+        margin-top: 2rem;
+    }
+    .footerList ul li{
+        font-size: 14px;
+    }
+    .bottomFooterContent ul{
+        display: block;
+    }
+    .bottomFooterContent ul li{
+        font-size: 12px;
+        text-align: center;
+    }
+    .bottomFooterContent ul li:last-child{
+        margin-top: 1rem;
+    }
 }
 
-@media (min-width: 380px) and (max-width: 424.98px) {}
+@media (min-width: 380px) and (max-width: 424.98px) {
+    .topFooterContent h2{
+        font-size: 24px;
+        text-align: center;
+    }
+    .footerDownload{
+        display: block;
+        justify-content: center;
+    }
+    .footerBg{
+        margin: 0;
+    }
+    .footerList{
+        text-align: center;
+    }
+    .footerList h4{
+        margin-top: 2rem;
+    }
+    .footerList ul li{
+        font-size: 14px;
+    }
+    .bottomFooterContent ul{
+        display: block;
+    }
+    .bottomFooterContent ul li{
+        font-size: 12px;
+        text-align: center;
+    }
+    .bottomFooterContent ul li:last-child{
+        margin-top: 1rem;
+    }
+}
 
-@media (min-width: 425px) and (max-width: 575.98px) {}
+@media (min-width: 425px) and (max-width: 575.98px) {
+    .topFooterContent h2{
+        font-size: 24px;
+        text-align: center;
+    }
+    .footerDownload{
+        display: block;
+        justify-content: center;
+    }
+    .footerBg{
+        margin: 0;
+    }
+    .footerList{
+        text-align: center;
+    }
+    .footerList h4{
+        margin-top: 2rem;
+    }
+    .footerList ul li{
+        font-size: 14px;
+    }
+    .bottomFooterContent ul{
+        display: block;
+    }
+    .bottomFooterContent ul li{
+        font-size: 12px;
+        text-align: center;
+    }
+    .bottomFooterContent ul li:last-child{
+        margin-top: 1rem;
+    }
+}
 
-@media (min-width: 576px) and (max-width: 768.98px) {}
+@media (min-width: 576px) and (max-width: 768.98px) {
+    .topFooterContent h2{
+        font-size: 24px;
+        text-align: center;
+    }
+    .footerBg{
+        margin: 0;
+    }
+    .footerList h4{
+        margin-top: 2rem;
+    }
+    .footerList ul li{
+        font-size: 14px;
+    }
+    .bottomFooterContent ul li{
+        font-size: 12px;
+    }
+}
 
 @media (min-width: 769px) and (max-width: 991.98px) {}
 

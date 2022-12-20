@@ -7,7 +7,7 @@ const Footer = () => {
             <footer className='footerBg'>
                 <div className='container'>
                     <div className='row'>
-                        <div className='col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6'>
+                        <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12'>
                             <div className='footerList'>
                                 <h4>About Us</h4>
                                 <ul>
@@ -20,7 +20,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className='col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6'>
+                        <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12'>
                             <div className='footerList'>
                                 <h4>Features</h4>
                                 <ul>
@@ -45,7 +45,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className='col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6'>
+                        <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12'>
                             <div className='footerList'>
                                 <h4>Community</h4>
                                 <ul>
@@ -58,7 +58,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className='col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6'>
+                        <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12'>
                             <div className='footerList'>
                                 <h4>Help Center</h4>
                                 <ul>
