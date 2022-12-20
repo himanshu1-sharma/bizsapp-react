@@ -90,11 +90,47 @@ p {
 
 
 
-@media (min-width: 319.98px) and (max-width: 379.98px) {}
+@media (min-width: 319.98px) and (max-width: 379.98px) {
+  p {
+    font-size: 14px !important;
+  }
 
-@media (min-width: 380px) and (max-width: 424.98px) {}
+  #order1 {
+    order: 1;
+  }
 
-@media (min-width: 425px) and (max-width: 575.98px) {}
+  #order2 {
+    order: 2;
+  }
+}
+
+@media (min-width: 380px) and (max-width: 424.98px) {
+  p {
+    font-size: 14px;
+  }
+
+  #order1 {
+    order: 1;
+  }
+
+  #order2 {
+    order: 2;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 575.98px) {
+  p {
+    font-size: 14px;
+  }
+
+  #order1 {
+    order: 1;
+  }
+
+  #order2 {
+    order: 2;
+  }
+}
 
 @media (min-width: 576px) and (max-width: 768.98px) {}
 

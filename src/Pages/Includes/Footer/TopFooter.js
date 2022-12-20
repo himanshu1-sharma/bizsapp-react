@@ -11,7 +11,7 @@ const TopFooter = () => {
                         <div className='col-lg-12'>
                             <div className='topFooterContent'>
                                 <h2>Download For iOS & Android</h2>
-                                <div className='d-flex'>
+                                <div className='footerDownload'>
                                     <DownloadBtn />
                                 </div>
                             </div>

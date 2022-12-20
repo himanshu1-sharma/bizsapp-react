@@ -19,7 +19,7 @@ const Header = () => {
             <header className='homeHeader'>
                 <div className='container'>
                     <div className='row'>
-                        <div className='col-xl-7 col-lg-7 co-md-6 col-12 col-12'>
+                        <div className='col-xl-7 col-lg-7 co-md-6 col-12 col-12' id="order2">
                             <div className='homeHeaderBg'>
                                 <nav className='homeNavigation'>
                                     <ul>
@@ -58,7 +58,7 @@ const Header = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-xl-5 col-lg-5 co-md-6 col-12 col-12'>
+                        <div className='col-xl-5 col-lg-5 co-md-6 col-12 col-12' id="order2">
                             <div className='homeHeaderSliderBg'>
                                 <div className='homeHeaderSliderBgVideo'>
                                     <video Autoplay="autoplay" muted loop>
@@ -76,6 +76,36 @@ const Header = () => {
                                         }}
                                         pagination={{
                                             clickable: true,
+                                        }}
+                                        breakpoints={{
+                                            319: {
+                                                slidesPerView: 1,
+                                                spaceBetween: 20,
+                                            },
+                                            640: {
+                                                slidesPerView: 1,
+                                                spaceBetween: 20,
+                                            },
+                                            768: {
+                                                slidesPerView: 2,
+                                                spaceBetween: 20,
+                                            },
+                                            1024: {
+                                                slidesPerView: 1,
+                                                spaceBetween: 20,
+                                            },
+                                            1200: {
+                                                slidesPerView: 1,
+                                                spaceBetween: 20,
+                                            },
+                                            1300: {
+                                                slidesPerView: 2,
+                                                spaceBetween: 20,
+                                            },
+                                            1400: {
+                                                slidesPerView: 2,
+                                                spaceBetween: 20,
+                                            },
                                         }}
                                         loop={true}
                                         navigation={true}
@@ -116,19 +146,22 @@ const Header = () => {
                                 </div>
                             </div>
                         </div>
+
+                    </div>
+                    <div className='row mt-2' style={{height: "max-content"}}>
                         <div className='col-lg-12'>
                             <div className='headerCopyright'>
                                 <ul>
                                     <li>© BizsApp From Digrowfa</li>
                                     <li>
-                                        <Link to='/'>Privacy</Link>
+                                        <Link to='/about'>Privacy</Link>
                                     </li>
                                     <li>
                                         <Link to='/'>Terms</Link>
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </div>  
                     </div>
                 </div>
             </header>

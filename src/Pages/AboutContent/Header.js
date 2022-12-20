@@ -22,12 +22,12 @@ const Header = () => {
             </div>
           </div>
           <div className='row mt-5'>
-            <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12'>
+            <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12' id='order2'>
               <div className='aboutHeaderImg two'>
                 <img src={header2} alt="header_image" className='img-fluid' />
               </div>
             </div>
-            <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12'>
+            <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12' id="order1">
               <div className='aboutHeaderText two'>
                 <h2>And Expand your
                   business worldwide</h2>
