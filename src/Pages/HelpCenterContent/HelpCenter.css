@@ -1,0 +1,112 @@
+.helpCenterBg{
+    padding-top: 6rem;
+}
+.leftPanel{
+    margin: 0 0 4rem 0;
+}
+.leftPanel.active{
+    position: sticky;
+    width: 100%;
+    top: 40px;
+    z-index: 999;
+    background-color: #fbfdfe;
+    padding-top: 3rem;
+}
+.leftPanel ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.leftPanel ul a {
+    color: var(--dark);
+}
+.leftPanel ul a.active {
+    font-family: bold-font;
+    color: var(--secondary);
+}
+.leftPanel ul a li {
+    padding: 10px 0;
+}
+.leftPanel ul a li img{
+    max-width: 25px;
+    margin-right: 10px;
+}
+.leftPanel .accordion{
+    --bs-accordion-bg: transparent;
+    --bs-accordion-border-color: transparent;
+    --bs-accordion-btn-padding-x: 0;
+    --bs-accordion-btn-padding-y: 0;
+    --bs-accordion-inner-border-radius: none;
+    --bs-accordion-btn-focus-border-color: transparent;
+    --bs-accordion-active-bg: transparent;
+    --bs-accordion-active-color: var(--secondary);
+    --bs-accordion-btn-focus-box-shadow: none;
+}
+.leftPanel .accordion .accordion-item .accordion-header button{
+    margin-bottom: 10px;
+}
+.leftPanel .accordion .accordion-item .accordion-header button img{
+    max-width: 25px;
+    margin-right: 10px;
+}
+.bizsappPoliciesBg{
+    padding-top: 6rem;
+}
+.page_content {
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+}
+.page_name {
+    border-bottom: 1px solid var(--primary);
+    margin-bottom: 1rem;
+}
+
+.page_name h2 {
+    color: var(--primary);
+    font-size: 20px !important;
+    font-family: boldfont;
+}
+.content {
+    margin-top: 2rem;
+}
+
+.content p {
+    font-size: 16px;
+}
+
+.content a {
+    color: var(--a);
+}
+
+.content h4 {
+    font-family: boldfont;
+    font-size: 20px;
+}.q_and_a {
+    margin-top: 4rem;
+  }
+  
+  .q_and_a .accordion-item {
+    border: none;
+  }
+  
+  .q_and_a .accordion .accordion-item .accordion-header .accordion-button {
+    font-family: semibold;
+  }
+  
+  .q_and_a .accordion .accordion-item .accordion-collapse .accordion-body p {
+    font-size: 16px !important;
+  }
+  
+  .q_and_a .accordion-button:focus {
+    background-color: var(--bg-light);
+    color: var(--dark);
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  
+  .q_and_a .accordion-button:not(.collapsed) {
+    background-color: var(--bg-light);
+    color: var(--dark);
+    font-family: semibold;
+  }

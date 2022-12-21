@@ -63,6 +63,9 @@ const Footer = () => {
                                 <h4>Help Center</h4>
                                 <ul>
                                     <li>
+                                        <Link to="/help-center">Help Center</Link>
+                                    </li>
+                                    <li>
                                         <Link to="/terms">Terms</Link>
                                     </li>
                                     <li>
